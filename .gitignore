@@ -1,0 +1,153 @@
+﻿# === OS-specific ===
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# === IDEs and Editors ===
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+*.iml
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# === Programming Languages ===
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.log
+target/
+bin/
+
+# JavaScript / Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# TypeScript
+*.tsbuildinfo
+
+# C / C++
+*.out
+*.o
+*.obj
+*.exe
+*.a
+*.so
+*.dll
+
+# C#
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+
+# Go
+*.exe
+*.test
+*.out
+vendor/
+
+# Ruby
+*.gem
+*.rbc
+.bundle/
+log/
+tmp/
+vendor/bundle/
+
+# Rust
+target/
+Cargo.lock
+
+# === Environment files ===
+.env
+.env.*
+!.env.example
+
+# === Logs ===
+*.log
+logs/
+*.log.*
+
+# === Coverage and test ===
+coverage/
+*.lcov
+.nyc_output/
+test-output/
+test-results/
+
+# === Miscellaneous ===
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
+*.orig
+*.rej
+
+# === Compression / Archives ===
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.gz
+*.bz2
+
+# === Images / Media (generated or unnecessary) ===
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.ico
+*.psd
+*.ai
+*.sketch
+
+# === Database files ===
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+
+# === Other ===
+.idea/
+*.sublime-*
+*.code-workspace
+*.ipynb_checkpoints/
